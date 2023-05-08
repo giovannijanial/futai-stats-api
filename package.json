@@ -1,0 +1,27 @@
+{
+  "name": "futai-stats-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.17",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "langchain": "^0.0.72"
+  }
+}
