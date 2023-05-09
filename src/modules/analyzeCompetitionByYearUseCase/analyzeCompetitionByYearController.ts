@@ -4,7 +4,7 @@ import { AnalyzeCompetitionByYearUseCase } from "./analyzeCompetitionByYearUseCa
 
 class AnalyzeCompetitionByYearController {
 	async handle(req: Request, res: Response) {
-		const { competitionId, year } = req.params;
+		const { competitionId, year, team } = req.params;
 
 
 
@@ -12,7 +12,8 @@ class AnalyzeCompetitionByYearController {
 
 		const result = await analyzeCompetitionByYearUseCase.execute(
 			+competitionId,
-			+year
+			+year,
+			team
 		);
 		res.status(result.status).send(result.data);
 	}

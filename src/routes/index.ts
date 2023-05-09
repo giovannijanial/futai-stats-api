@@ -5,6 +5,9 @@ import { AnalyzeCompetitionByYearController } from "../modules/analyzeCompetitio
 const route = Router();
 const analyzeCompetitionByYearController = new AnalyzeCompetitionByYearController();
 
-route.get("/analyze/:competitionId/:year", analyzeCompetitionByYearController.handle);
+route.get(
+	"/analyze/:competitionId/:year/:team",
+	analyzeCompetitionByYearController.handle
+);
 
 export { route }
