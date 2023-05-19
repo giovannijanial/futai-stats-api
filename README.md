@@ -1,7 +1,7 @@
 # futai-stats-api
 
 ## :open_book: Description
-TeamStatsAnalyzer is a cutting-edge data analysis tool built with Node.js and TypeScript. 
+FutAi Stats is a cutting-edge data analysis tool built with Node.js and TypeScript. 
 It empowers coaches, analysts, and enthusiasts to improve team performance by extracting valuable insights from football statistics. 
 The integration of OpenAI's LangChain enhances the project's capabilities with natural language processing. 
 
