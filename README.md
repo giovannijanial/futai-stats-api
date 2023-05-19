@@ -9,6 +9,8 @@ The integration of OpenAI's LangChain enhances the project's capabilities with n
 - NodeJS
 - TypeScript
 - Express
+- OpenAI
+- Langchain
 
 ## :rocket: How start
 ```
